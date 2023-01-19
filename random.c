@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 char randchar(){
-	return char( (rand() % 26)+65)
+
+	return ((rand() % 26)+65);
 
 }
